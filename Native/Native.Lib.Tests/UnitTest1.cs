@@ -9,6 +9,6 @@ public class UnitTest1
     [Fact]
     public void Test1()
     {
-        Assert.Equal(3u, NativeInterop.Compile("str"));
+        Assert.Equal("\"{\":\"}\"", NativeInterop.CompileNative("str"));
     }
 }

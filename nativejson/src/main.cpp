@@ -1,7 +1,8 @@
 #include <iostream>
 #include "lib.h"
 
-int main() {
+int main()
+{
     std::cout << NativeJson::Compile("Hello World") << std::endl;
     return 0;
 }

@@ -1,8 +1,18 @@
 #include "lib.h"
 #include <cstddef>
 #include <cstring>
+#include <string>
+#include <memory>
 
-size_t NativeJson::Compile(const char* file)
+std::string test(const char* str)
 {
-    return strlen(file);
+    std::string s{str};
+    return s;
+}
+
+std::string NativeJson::Compile(const char *file)
+{
+
+
+        return test("{:}")
 }
